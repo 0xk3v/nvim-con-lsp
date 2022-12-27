@@ -46,9 +46,14 @@ return packer.startup(function(use)
 
   -- Other Plugins
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
-  use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
+  use "nvim-lua/plenary.nvim" -- Useful lua functions used by lots of plugins
 
   -- Plugin Category Here
+
+  -- Colorschemes
+  use "lunarvim/darkplus.nvim"
+  use("kadekillary/skull-vim")
+  use("projekt0n/github-nvim-theme")
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
