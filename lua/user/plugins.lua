@@ -52,7 +52,8 @@ return packer.startup(function(use)
 	use("kyazdani42/nvim-tree.lua")
 	use("akinsho/bufferline.nvim")
 	use("moll/vim-bbye")
-  use("nvim-lualine/lualine.nvim")
+	use("nvim-lualine/lualine.nvim")
+	use("akinsho/toggleterm.nvim")
 
 	-- Colorschemes
 	use("lunarvim/darkplus.nvim")
