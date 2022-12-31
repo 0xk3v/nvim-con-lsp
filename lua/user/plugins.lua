@@ -77,10 +77,18 @@ return packer.startup(function(use)
 	use("saadparwaiz1/cmp_luasnip") -- snippet completions
 	use("hrsh7th/cmp-nvim-lsp")
 	use("hrsh7th/cmp-nvim-lua")
+	use("hrsh7th/vim-vsnip")
+	use("hrsh7th/vim-vsnip-integ")
+	use("Shougo/deoplete.nvim")
+	use("roxma/nvim-yarp")
+	use("roxma/vim-hug-neovim-rpc")
 
 	-- snippets
 	use("L3MON4D3/LuaSnip") --snippet engine
 	use("rafamadriz/friendly-snippets") -- a bunch of snippets to use
+	use("dcampos/nvim-snippy")
+	use("honza/vim-snippets")
+	use("dcampos/cmp-snippy")
 
 	-- LSP
 	use("neovim/nvim-lspconfig") -- enable LSP
