@@ -57,12 +57,17 @@ return packer.startup(function(use)
 	use("ahmedkhalf/project.nvim") -- Project management
 	use("lewis6991/impatient.nvim") -- Load plugins faster
 	use("lukas-reineke/indent-blankline.nvim") -- Indentation lines
+	use("glepnir/dashboard-nvim") -- Dashboard
+	use("rcarriga/nvim-notify") -- Notifications
+	use("petertriho/nvim-scrollbar")
+	use("kevinhwang91/nvim-hlslens")
 
 	-- Colorschemes
 	use("lunarvim/darkplus.nvim")
 	use("kadekillary/skull-vim")
 	use("projekt0n/github-nvim-theme")
 	use("tiagovla/tokyodark.nvim")
+	use("folke/tokyonight.nvim")
 
 	-- cmp plugins
 	use("hrsh7th/nvim-cmp") -- The completion plugin
@@ -82,6 +87,7 @@ return packer.startup(function(use)
 	use("williamboman/mason.nvim") -- simple to use language server installer
 	use("williamboman/mason-lspconfig.nvim") -- simple to use language server installer
 	use("jose-elias-alvarez/null-ls.nvim") -- LSP diagnostics and code actions
+	use("MunifTanjim/prettier.nvim") -- Prettier for JS, HTML & CSS
 
 	-- Telescope
 	use("nvim-telescope/telescope.nvim")
