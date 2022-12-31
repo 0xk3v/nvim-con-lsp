@@ -48,12 +48,15 @@ return packer.startup(function(use)
 	use("nvim-lua/plenary.nvim") -- Useful lua functions used by lots of plugins
 	use("windwp/nvim-autopairs") -- Autopairs, integrates with both cmp and treesitter
 	use("numToStr/Comment.nvim") -- Easily comment stuff
-	use("kyazdani42/nvim-web-devicons")
-	use("kyazdani42/nvim-tree.lua")
-	use("akinsho/bufferline.nvim")
-	use("moll/vim-bbye")
-	use("nvim-lualine/lualine.nvim")
-	use("akinsho/toggleterm.nvim")
+	use("kyazdani42/nvim-web-devicons") -- Icons for nvim
+	use("kyazdani42/nvim-tree.lua") -- File Explorer
+	use("akinsho/bufferline.nvim") -- Top Tabs to easily navigate through open tabs
+	use("moll/vim-bbye") --
+	use("nvim-lualine/lualine.nvim") -- Bottom line (with diagnostics, branch,...)
+	use("akinsho/toggleterm.nvim") -- Terminal plugin
+	use("ahmedkhalf/project.nvim") -- Project management
+	use("lewis6991/impatient.nvim") -- Load plugins faster
+	use("lukas-reineke/indent-blankline.nvim") -- Indentation lines
 
 	-- Colorschemes
 	use("lunarvim/darkplus.nvim")
@@ -79,7 +82,6 @@ return packer.startup(function(use)
 	use("williamboman/mason.nvim") -- simple to use language server installer
 	use("williamboman/mason-lspconfig.nvim") -- simple to use language server installer
 	use("jose-elias-alvarez/null-ls.nvim") -- LSP diagnostics and code actions
-	use("glepnir/lspsaga.nvim")
 
 	-- Telescope
 	use("nvim-telescope/telescope.nvim")
