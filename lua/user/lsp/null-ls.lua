@@ -54,7 +54,7 @@ null_ls.setup({
 
 		-- C++
 		formatting.clang_format,
-		diagnostics.clang_check,
+		diagnostics.clang_check.with({ extra_args = { "--std=c++20" } }),
 		diagnostics.cpplint,
 
 		-- Text Files
