@@ -11,6 +11,10 @@ vim.g.maplocalleader = " "
 
 -- Normal Mode --
 
+keymap("n", "<leader>]", ":split<CR>", opts)
+keymap("n", "<leader>[", ":vsplit<CR>", opts)
+keymap("n", "<leader>\\", ":quit<CR>", opts)
+
 -- Window Navigation
 keymap("n", "<C-h>", "<C-w>h", opts)
 keymap("n", "<C-j>", "<C-w>j", opts)
