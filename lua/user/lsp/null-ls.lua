@@ -3,9 +3,7 @@ if not null_ls_status_ok then
 	return
 end
 
--- https://github.com/jose-elias-alvarez/null-ls.nvim/tree/main/lua/null-ls/builtins/formatting
 local formatting = null_ls.builtins.formatting
--- https://github.com/jose-elias-alvarez/null-ls.nvim/tree/main/lua/null-ls/builtins/diagnostics
 local diagnostics = null_ls.builtins.diagnostics
 local group = vim.api.nvim_create_augroup("lsp_format_on_save", { clear = false })
 local event = "BufWritePre" -- or "BufWritePost"
@@ -56,9 +54,6 @@ null_ls.setup({
 		formatting.clang_format,
 		diagnostics.clang_check.with({ extra_args = { "--std=c++20" } }),
 		diagnostics.cpplint,
-
-		-- Text Files
-		formatting.codespell,
 	},
 })
 
@@ -79,7 +74,6 @@ return h.make_builtin({
 	generator_opts = {
 		command = "clang-format",
 		args = h.range_formatting_args_factory(
-			-- { "-style='BasedOnStyle: Google'" },
 			{ "-assume-filename", "$FILENAME" },
 			"--offset",
 			"--length",
