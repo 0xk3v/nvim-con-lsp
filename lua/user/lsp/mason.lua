@@ -2,7 +2,6 @@ local servers = {
 	"sumneko_lua",
 	"pyright",
 	"jsonls",
-	"tsserver",
 }
 
 local settings = {
@@ -43,7 +42,7 @@ for _, server in pairs(servers) do
 	if require_ok then
 		opts = vim.tbl_deep_extend("force", conf_opts, opts)
 	else
-		print("Emmet has problems")
+		print("Some servers have problems")
 	end
 
 	lspconfig[server].setup(opts)
@@ -56,7 +55,6 @@ for _, server in pairs(servers) do
 				options = {
 					-- For possible options, see: https://github.com/emmetio/emmet/blob/master/src/config.ts#L79-L267
 					["bem.enabled"] = true,
-					["jsx.enabled"] = true,
 					["output.format"] = true,
 				},
 			},
