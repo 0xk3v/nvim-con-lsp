@@ -61,6 +61,7 @@ return packer.startup(function(use)
 	use("rcarriga/nvim-notify") -- Notifications
 	use("petertriho/nvim-scrollbar")
 	use("kevinhwang91/nvim-hlslens")
+	use("j-hui/fidget.nvim")
 
 	-- Colorschemes
 	use("lunarvim/darkplus.nvim")
@@ -111,6 +112,9 @@ return packer.startup(function(use)
 
 	-- Git
 	use("lewis6991/gitsigns.nvim")
+
+	-- Clang_extensions
+	use("p00f/clangd_extensions.nvim")
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
