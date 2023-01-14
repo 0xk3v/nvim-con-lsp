@@ -42,7 +42,24 @@ for _, server in pairs(servers) do
 	local require_ok, conf_opts = pcall(require, "user.lsp.settings." .. server)
 	if require_ok then
 		opts = vim.tbl_deep_extend("force", conf_opts, opts)
+	else
+		print("Emmet has problems")
 	end
 
 	lspconfig[server].setup(opts)
+	lspconfig.emmet_ls.setup({
+		-- on_attach = on_attach,
+		opts,
+		filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less" },
+		init_options = {
+			html = {
+				options = {
+					-- For possible options, see: https://github.com/emmetio/emmet/blob/master/src/config.ts#L79-L267
+					["bem.enabled"] = true,
+					["jsx.enabled"] = true,
+					["output.format"] = true,
+				},
+			},
+		},
+	})
 end
