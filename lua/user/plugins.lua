@@ -62,6 +62,7 @@ return packer.startup(function(use)
 	use("petertriho/nvim-scrollbar")
 	use("kevinhwang91/nvim-hlslens")
 	use("j-hui/fidget.nvim")
+	use({ "quick-lint/quick-lint-js", rtp = "plugin/vim/quick-lint-js.vim", tag = "2.10.0", opt = true })
 
 	-- Colorschemes
 	use("lunarvim/darkplus.nvim")

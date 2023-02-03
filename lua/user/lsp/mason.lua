@@ -60,4 +60,9 @@ for _, server in pairs(servers) do
 			},
 		},
 	})
+	lspconfig.quick_lint_js.setup({
+		opts,
+		filetypes = { "javascript" },
+		cmd = { "quick-lint-js", "--lsp-server" },
+	})
 end

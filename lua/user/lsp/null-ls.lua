@@ -5,6 +5,7 @@ end
 
 local formatting = null_ls.builtins.formatting
 local diagnostics = null_ls.builtins.diagnostics
+local codeactions = null_ls.builtins.code_actions
 local group = vim.api.nvim_create_augroup("lsp_format_on_save", { clear = false })
 local event = "BufWritePre" -- or "BufWritePost"
 local async = event == "BufWritePost"
@@ -40,6 +41,9 @@ null_ls.setup({
 		--  Web Dev
 		formatting.prettier,
 		formatting.stylelint,
+		formatting.eslint,
+		codeactions.eslint,
+		diagnostics.eslint,
 
 		-- Python
 		formatting.black.with({ extra_args = { "--fast" } }),
