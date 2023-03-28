@@ -10,7 +10,7 @@ return {
 					-- nls.builtins.formatting.prettierd,
 					nls.builtins.formatting.prettier,
 					nls.builtins.formatting.stylelint,
-					nls.builtins.formatting.eslint,
+					-- nls.builtins.formatting.eslint,
 					nls.builtins.code_actions.eslint,
 					nls.builtins.diagnostics.eslint,
 
