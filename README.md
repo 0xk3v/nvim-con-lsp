@@ -10,7 +10,7 @@
 - Nerd-fonts
 
 ## Steps to Install
-(to be added later) 
+to be added later
 ---
 
 with :green_heart: by [n-kev1n](https://github.com/n-kev1n)
