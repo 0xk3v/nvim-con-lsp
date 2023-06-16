@@ -6,7 +6,7 @@
 
 ## Requirements
 
-- Neovim 0.8+
+- Neovim (latest version)
 - Nerd-fonts
 
 ## Steps to Install
