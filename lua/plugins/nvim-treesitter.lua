@@ -7,8 +7,9 @@ return {
 		{ "<c-space>", desc = "Increment selection" },
 		{ "<bs>", desc = "Schrink selection", mode = "x" },
 	},
-	---@type TSConfig
+	-- -@type TSConfig
 	opts = {
+		-- modules = {},
 		highlight = { enable = true },
 		indent = { enable = true },
 		context_commentstring = { enable = true, enable_autocmd = false },
@@ -31,7 +32,7 @@ return {
 		},
 		sync_install = false,
 		auto_install = true,
-		ignore_install = {},
+		ignore_install = { "help" },
 		incremental_selection = {
 			enable = true,
 			keymaps = {
