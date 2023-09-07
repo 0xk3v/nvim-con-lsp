@@ -11,8 +11,8 @@ return {
 					nls.builtins.formatting.prettier,
 					nls.builtins.formatting.stylelint,
 					-- nls.builtins.formatting.eslint,
-					nls.builtins.code_actions.eslint,
-					nls.builtins.diagnostics.eslint,
+					-- nls.builtins.code_actions.eslint,
+					-- nls.builtins.diagnostics.eslint,
 
 					-- Python
 					-- nls.builtins.diagnostics.flake8,
