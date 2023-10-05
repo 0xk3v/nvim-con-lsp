@@ -19,6 +19,7 @@ return {
 			"html",
 			"javascript",
 			"json",
+			"java",
 			"lua",
 			"markdown",
 			"markdown_inline",
