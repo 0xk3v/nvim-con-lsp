@@ -14,6 +14,9 @@ return {
 					-- nls.builtins.code_actions.eslint,
 					-- nls.builtins.diagnostics.eslint,
 
+					-- Java
+					nls.builtins.formatting.astyle,
+
 					-- Python
 					-- nls.builtins.diagnostics.flake8,
 					nls.builtins.formatting.black.with({ extra_args = { "--fast" } }),

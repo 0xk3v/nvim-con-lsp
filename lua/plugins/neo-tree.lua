@@ -38,9 +38,14 @@ return {
 	-- 	end
 	-- end,
 	opts = {
+		-- filesystem = {
+		-- 	bind_to_cwd = false,
+		-- 	follow_current_file = true,
+		-- }
 		filesystem = {
 			bind_to_cwd = false,
-			follow_current_file = true,
+			follow_current_file = { enabled = true },
+			use_libuv_file_watcher = true,
 		},
 		window = {
 			width = 30,
