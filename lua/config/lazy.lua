@@ -20,6 +20,12 @@ require("lazy").setup({
 		-- Tests
 		{ import = "lazyvim.plugins.extras.test.core" },
 
+		-- Tailwind
+		{ import = "lazyvim.plugins.extras.lang.tailwind" },
+
+		-- Rust
+		{ import = "lazyvim.plugins.extras.lang.rust" },
+
 		-- import/override with your plugins
 		{ import = "plugins" },
 	},
