@@ -1,4 +1,5 @@
 return {
+
 	{
 		"L3MON4D3/LuaSnip",
 		keys = function()
@@ -7,7 +8,12 @@ return {
 	},
 	{
 		"hrsh7th/nvim-cmp",
-
+		dependencies = {
+			"hrsh7th/cmp-nvim-lsp",
+			"hrsh7th/cmp-buffer",
+			"hrsh7th/cmp-path",
+			"saadparwaiz1/cmp_luasnip",
+		},
 		-- -@param opts cmp.ConfigSchema
 		opts = function(_, opts)
 			local has_words_before = function()
