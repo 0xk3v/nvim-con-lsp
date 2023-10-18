@@ -18,6 +18,7 @@ return {
 				-- tsserver will be automatically installed with mason and loaded with lspconfig
 				tsserver = {},
 				eslint = {},
+				jdtls = {},
 				rust_analyzer = {
 					keys = {
 						{ "K", "<cmd>RustHoverActions<cr>", desc = "Hover Actions (Rust)" },
