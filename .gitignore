@@ -1,5 +1,6 @@
 # Packer installed plugins
 plugin/packer_compiled.lua
+bak.plugin/
 
 
 # Compiled Lua sources

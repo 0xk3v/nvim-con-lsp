@@ -6,11 +6,12 @@
 
 ## Requirements
 
-- Neovim 0.8+
+- Neovim (latest version)
+- Development tools
 - Nerd-fonts
 
 ## Steps to Install
-
+to be added later
 ---
 
-with :green_heart: by [n-kev1n](https://github.com/n-kev1n)
+by [0xk3v](https://github.com/0xk3v)
