@@ -2,7 +2,10 @@ return {
 	{
 		"folke/tokyonight.nvim",
 		lazy = true,
-		opts = { style = "night" },
+		opts = {
+			style = "night",
+			transparent = true,
+		},
 	},
 	-- {
 	-- 	"0xk3v/lavend3r",
@@ -17,6 +20,7 @@ return {
 	-- 	"tiagovla/tokyodark.nvim",
 	-- 	opts = {
 	-- 		-- custom options here
+	-- 		transparent_background = true,
 	-- 	},
 	-- 	config = function(_, opts)
 	-- 		require("tokyodark").setup(opts) -- calling setup is optional
