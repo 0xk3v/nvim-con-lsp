@@ -1,31 +1,20 @@
 return {
 	{
-		"ellisonleao/gruvbox.nvim",
-		priority = 1000,
-		config = true,
+		"folke/tokyonight.nvim",
+		lazy = true,
 		opts = {
-			italics = {
-				operators = true,
-			},
-			transparent_mode = true,
+			style = "night",
 		},
 	},
-	-- {
-	-- 	"folke/tokyonight.nvim",
-	-- 	lazy = true,
-	-- 	opts = {
-	-- 		style = "night",
-	-- 	},
-	-- },
 	-- {
 	-- 	"0xk3v/lavend3r",
 	-- },
-	{
-		"LazyVim/LazyVim",
-		opts = {
-			colorscheme = "gruvbox",
-		},
-	},
+	-- {
+	-- 	"LazyVim/LazyVim",
+	-- 	opts = {
+	-- 		colorscheme = "gruvbox",
+	-- 	},
+	-- },
 	-- {
 	-- 	"tiagovla/tokyodark.nvim",
 	-- 	opts = {
