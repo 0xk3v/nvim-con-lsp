@@ -6,6 +6,12 @@ return {
 			style = "night",
 		},
 	},
+	{
+		"Skullamortis/forest.nvim",
+		lazy = false,
+		priority = 1000,
+		opts = {},
+	},
 	-- {
 	-- 	"0xk3v/lavend3r",
 	-- },
