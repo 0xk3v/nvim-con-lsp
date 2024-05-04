@@ -6,19 +6,15 @@ return {
 			style = "night",
 		},
 	},
-	-- {
-	-- 	"Skullamortis/forest.nvim",
-	-- 	lazy = false,
-	-- 	priority = 1000,
-	-- 	opts = {},
-	-- },
+	-- { "marko-cerovac/material.nvim" },
+	-- { "EdenEast/nightfox.nvim" }, -- lazy
 	-- {
 	-- 	"0xk3v/lavend3r",
 	-- },
 	-- {
 	-- 	"LazyVim/LazyVim",
 	-- 	opts = {
-	-- 		colorscheme = "gruvbox",
+	-- 		colorscheme = "material",
 	-- 	},
 	-- },
 	-- {
