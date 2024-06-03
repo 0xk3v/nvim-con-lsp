@@ -6,17 +6,18 @@ return {
 			style = "night",
 		},
 	},
+	{ "rose-pine/neovim", name = "rose-pine" },
 	-- { "marko-cerovac/material.nvim" },
 	-- { "EdenEast/nightfox.nvim" }, -- lazy
 	-- {
 	-- 	"0xk3v/lavend3r",
 	-- },
-	-- {
-	-- 	"LazyVim/LazyVim",
-	-- 	opts = {
-	-- 		colorscheme = "material",
-	-- 	},
-	-- },
+	{
+		"LazyVim/LazyVim",
+		opts = {
+			colorscheme = "rose-pine",
+		},
+	},
 	-- {
 	-- 	"tiagovla/tokyodark.nvim",
 	-- 	opts = {
