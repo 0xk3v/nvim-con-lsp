@@ -12,11 +12,17 @@ return {
 	-- {
 	-- 	"0xk3v/lavend3r",
 	-- },
+	-- {
+	-- 	"LazyVim/LazyVim",
+	-- 	opts = {
+	-- 		colorscheme = "rose-pine",
+	-- 	},
+	-- },
 	{
-		"LazyVim/LazyVim",
-		opts = {
-			colorscheme = "rose-pine",
-		},
+		dir = "/home/kev/projects/skull.nvim",
+	},
+	{
+		dir = "/home/kev/projects/lavend3r",
 	},
 	-- {
 	-- 	"tiagovla/tokyodark.nvim",
