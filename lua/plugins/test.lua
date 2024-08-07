@@ -4,6 +4,8 @@ return {
 		dependencies = {
 			"marilari88/neotest-vitest",
 			"nvim-neotest/neotest-jest",
+			"fredrikaverpil/neotest-golang",
+			"nvim-neotest/nvim-nio",
 		},
     -- stylua: ignore
 		-- opts = function(_, opts)
@@ -14,6 +16,7 @@ return {
 		opts = {
 			adapters = {
 				["neotest-vitest"] = {},
+				["neotest-golang"] = {},
 				["neotest-jest"] = {
 					jestCommand = "pnpm test:e2e --",
 					jestConfigFile = "custom.jest.config.ts",
