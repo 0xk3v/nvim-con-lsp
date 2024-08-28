@@ -19,6 +19,9 @@ return {
 				tsserver = {},
 				eslint = {},
 				jdtls = {},
+				phpactor = {
+					enabled = true,
+				},
 				rust_analyzer = {
 					keys = {
 						{ "K", "<cmd>RustHoverActions<cr>", desc = "Hover Actions (Rust)" },
